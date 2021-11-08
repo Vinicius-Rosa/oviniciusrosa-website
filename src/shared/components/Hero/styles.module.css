@@ -1,0 +1,30 @@
+.container {
+    position: fixed;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    height: 100vh;
+    width: 100vw;
+
+    padding: 0 50px;
+
+    background-color: var(--lighter);
+}
+
+.mainWrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 1230px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 auto;
+}
+
+.imgContainer {
+    max-width: 734px;
+    margin-right: -98px;
+}

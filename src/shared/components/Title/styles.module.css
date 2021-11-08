@@ -1,0 +1,28 @@
+.title{
+    font-family: 'Alfa Slab One', cursive;
+
+    font-size: 8rem;
+    color: var(--black);
+
+    width: max-content;
+}
+
+.title::after {
+    content: "";
+
+    display: block;
+
+    height: 8px;
+    /* width: 30%; */
+    width: 80px;
+
+    background-color: var(--secondary);
+}
+
+.highlight{
+    color: var(--primary);
+}
+
+.titleMedium{
+    font-size: 3.5rem;
+}
