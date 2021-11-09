@@ -12,5 +12,5 @@ export function HomeScreen() {
             <AboutMe />
             <Techs />
         </CardContainer>
-    </>;
+    </>
 }
