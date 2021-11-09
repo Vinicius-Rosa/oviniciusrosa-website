@@ -1,3 +1,13 @@
+.container{
+    position: relative;
+    width: 700px;
+    height: 700px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .dots1{
     position: absolute;
     /* top: 80px; */
@@ -24,3 +34,128 @@
     z-index: -1;
     transform: scale(1.2);
 }
+
+.me{
+    position: relative;
+
+    width: 500px;
+
+    pointer-events: none;
+}
+
+.cloud1{
+    position: absolute;
+    top: 0;
+    left: -100px;
+
+
+    width: 300px;
+
+    animation: float1 10s ease-in-out infinite;
+}
+
+.cloud2{
+    position: absolute;
+    top: 40%;
+    right: -100px;
+
+
+    width: 300px;
+
+    animation: float1 8s ease-in-out infinite;
+}
+
+.cloud3{
+    position: absolute;
+    bottom: 0;
+    left: -100px;
+
+    width: 300px;
+
+    animation: float1 6s ease-in-out infinite;
+}
+
+.butterfly1{
+    position: absolute;
+    top: 38%;
+    left: 50px;
+
+
+    width: 120px;
+
+    animation: float 8s ease-in-out infinite;
+}
+
+.butterfly2{
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+
+
+    width: 120px;
+
+    animation: float 6s ease-in-out infinite;
+}
+
+.girassol{
+    position: absolute;
+    bottom: 5%;
+    right: 70px;
+
+
+    width: 120px;
+
+    animation: girassoisAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes float1 {
+	0% {
+		transform: translateX(0px);
+	}
+	50% {
+		transform: translateX(-20px);
+	}
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes girassoisAnim {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+  
+    15% {
+      transform: translateX(-10px) rotate(6deg);
+    }
+  
+    30% {
+      transform: translateX(5px) rotate(-6deg);
+    }
+  
+    45% {
+      transform: translateX(-5px) rotate(3.6deg);
+    }
+  
+    60% {
+      transform: translateX(2px) rotate(-2.4deg);
+    }
+  
+    75% {
+      transform: translateX(-3px) rotate(1.2deg);
+    }
+  }
