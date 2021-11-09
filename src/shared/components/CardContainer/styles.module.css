@@ -1,5 +1,8 @@
 .card{
-    position: relative;
+    /* position: relative; */
+    position: absolute;
+    top: calc(100vh - 70px);
+
 
     background-color: var(--white);
     border-top-left-radius: 70px;
@@ -10,13 +13,13 @@
     min-height: 100px;
     width: 100vw;
     max-width: 100%;
-    
-    margin-top: calc(100vh - 70px);
 
     display: block;
 }
 
 .contentContainer{
+    position: relative;
+
     padding-top: 70px;
 }
 
