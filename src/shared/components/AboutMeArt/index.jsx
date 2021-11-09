@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Image from 'next/image';
-import AboutImg from 'shared/assets/about-me.png';
 
 import Me from 'shared/assets/about-me/me.png';
 import Folhas from 'shared/assets/about-me/folhas.png';

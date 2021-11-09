@@ -1,0 +1,29 @@
+.techsContainer{
+    position: relative;
+}
+
+.content{
+    width: 100%;
+    max-width: 1230px;
+
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.yellowLine{
+    position: absolute;
+    top: calc(50% - 4px);
+    left: 0;
+
+    height: 4px;
+    width: 100vw;
+
+    background-color: var(--secondary);
+}
