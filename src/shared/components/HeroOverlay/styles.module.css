@@ -1,0 +1,28 @@
+.container{
+    position: absolute;
+    z-index: -1;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.dots1{
+    position: absolute;
+
+    top: -150px;
+    right: -100px;
+
+    transform: rotate(40deg);
+}
+
+.dots2{
+    position: absolute;
+    bottom: -50px;
+    left: -200px;
+}
+
+.lines{
+    position: absolute;
+    top: -50px;
+    left: -200px;
+}
