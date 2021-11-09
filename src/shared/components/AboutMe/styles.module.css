@@ -1,9 +1,11 @@
 .container{
+    position: relative;
+
     width: 100%;
     max-width: 1230px;
 
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .paragraph{
@@ -41,7 +43,7 @@
 }
 
 .imageWrapper{
-    margin-top: -200px;
+    margin-right: -50px;
     
     pointer-events: none;
 }

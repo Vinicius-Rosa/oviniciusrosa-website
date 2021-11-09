@@ -1,0 +1,105 @@
+.meContainer{
+    position: relative;
+
+    width: 650px;
+    height: 650px;
+}
+
+.me{
+    position: relative;
+
+    z-index: 2;
+}
+
+.folhas{
+    position: absolute;
+    top: 10%;
+    left: 20px;
+
+    width: 500px;
+
+    animation: swing 2s ease 0s infinite normal forwards;
+}
+
+.rosas{
+    position: absolute;
+    top: 28%;
+    right: 105px;
+    z-index: 3;
+
+    width: 180px;
+
+    animation: swing 4s ease 0s infinite;
+}
+
+.lua{
+    position: absolute;
+    top: -10px;
+    left: 0;
+
+    width: 420px;
+
+    animation: float 6s ease 0s infinite;
+}
+
+.jornal{
+    position: absolute;
+    top: 0;
+    right: 40px;
+
+    width: 380px;
+
+    animation: float 4s ease 0s infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes swing {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+  
+    60% {
+      transform:  rotate(5deg);
+    }
+  }
+
+@keyframes folhas {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+  
+    15% {
+      transform: translateX(-10px) rotate(6deg);
+    }
+  
+    30% {
+      transform: translateX(5px) rotate(-6deg);
+    }
+  
+    45% {
+      transform: translateX(-5px) rotate(3.6deg);
+    }
+  
+    60% {
+      transform:  rotate(-2.4deg);
+    }
+  
+    75% {
+      transform: translateX(-3px) rotate(1.2deg);
+    }
+  }

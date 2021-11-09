@@ -1,14 +1,14 @@
 import { classes } from 'app/utils/classLister';
 import React from 'react';
+import AboutMeArt from '../AboutMeArt';
+import AboutMeOverlay from '../AboutMeOverlay';
 import Title from '../Title';
-
-import Image from 'next/image';
-import AboutImg from 'shared/assets/about-me.png';
 
 import styles from './styles.module.css';
 
 function AboutMe() {
     return <section id="aboutme" className={styles.container}>
+        <AboutMeOverlay />
         <Title highlightText=" mim" size="md">Sobre</Title>
         <div className={styles.row}>
             <div className={styles.infos}>
@@ -28,11 +28,7 @@ function AboutMe() {
             </div>
 
             <div className={styles.imageWrapper}>
-                <Image
-                    src={AboutImg}
-                    alt="Arte de mim mesmo em colagem digital."
-                    quality={100}
-                />
+                <AboutMeArt />
             </div>
         </div>
     </section>;
