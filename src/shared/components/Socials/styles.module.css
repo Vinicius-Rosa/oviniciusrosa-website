@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button{
+    font-size: 1.5rem;
+
+    width: 30px;
+    height: 30px;
+
+    margin: 10px;
+
+    color: var(--black);
+    transition: 0.4s;
+}
+
+.button:hover{
+    color: var(--primary);
+    transform: scale(1.15);
+}

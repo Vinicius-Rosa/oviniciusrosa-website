@@ -10,9 +10,11 @@ import HeroImg from 'shared/assets/hero-img.png';
 import Object1 from 'shared/assets/object.svg';
 
 import styles from './styles.module.css';
+import Socials from '../Socials';
 
 function Hero() {
     return <section className={styles.container}>
+        <Socials />
         <main className={styles.mainWrapper}>
             <div className={styles.infoContainer}>
                 <Title highlightText="!">Olá</Title>
