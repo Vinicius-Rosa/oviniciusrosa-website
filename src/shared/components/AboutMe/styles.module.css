@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+    max-width: 1230px;
+
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+
+    color: var(--grey);
+
+    line-height: 1.5;
+}
+
+.highlight{
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.emphasys{
+    font-weight: bold;
+}
+
+.marginHorizontal{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.infos{
+    max-width: 580px;
+}
+
+.row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.imageWrapper{
+    margin-top: -200px;
+    
+    pointer-events: none;
+}
