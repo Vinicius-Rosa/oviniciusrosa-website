@@ -1,4 +1,3 @@
-import { useRouter } from 'next/dist/client/router';
 import React from 'react';
 import { HomeScreen } from 'views/Home.screen'
 import LoadingScreen from 'views/Loading.screen';
@@ -9,7 +8,7 @@ export default function Home() {
     const finishLoading = () => {
       setTimeout(() => {
         setPageLoading(false);
-      }, 1000);
+      }, 1500);
     };
 
     window.addEventListener("load", finishLoading)
@@ -17,6 +16,7 @@ export default function Home() {
 
   return <>
     {pageLoading && <LoadingScreen />}
+    {/* <LoadingScreen /> */}
     <HomeScreen />
   </>
 }
