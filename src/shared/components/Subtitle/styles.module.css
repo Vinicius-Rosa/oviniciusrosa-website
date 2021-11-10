@@ -1,6 +1,7 @@
 .subtitle{
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 
     font-family: 'Alfa Slab One', sans-serif;
 
@@ -14,9 +15,9 @@
     content: "";
 
     display: block;
+    flex: 1;
 
     height: 5px;
-    width: 100%;
 
     margin-left: 10px;
     margin-bottom: 5px;
