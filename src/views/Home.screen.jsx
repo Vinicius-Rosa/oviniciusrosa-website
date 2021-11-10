@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from 'shared/components/AboutMe';
 import CardContainer from 'shared/components/CardContainer';
+import Contact from 'shared/components/Contact';
 import Hero from 'shared/components/Hero';
 import SomeProjects from 'shared/components/SomeProjects';
 import Techs from 'shared/components/Techs';
@@ -15,7 +16,7 @@ export function HomeScreen() {
             <Techs />
             <WhatIDoForLiving />
             <SomeProjects />
-            <br /><br />
+            <Contact />
         </CardContainer>
     </>
 }
