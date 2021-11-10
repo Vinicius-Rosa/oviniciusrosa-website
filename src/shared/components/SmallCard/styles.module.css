@@ -45,6 +45,7 @@
     width: 250px;
     min-height: 105px;
 
+    font-family: "Poppins", sans-serif;
     color: var(--grey);
 
     background-color: var(--white);
