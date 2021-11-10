@@ -17,9 +17,10 @@ function CardContainer({ children }) {
     }
 
     return <section className={styles.card}>
-
         <button className={styles.scrollBtn} onClick={scrollUp}>
-            <FontAwesomeIcon icon={faAngleDoubleUp} />
+            <div style={{ transform: "scale(0.4)", display: 'flex', alignItems: "center", height: '100%' }}>
+                <FontAwesomeIcon icon={faAngleDoubleUp} />
+            </div>
         </button>
 
         <main className={styles.contentContainer} ref={mainContentRef}>
