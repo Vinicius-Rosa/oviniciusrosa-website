@@ -3,7 +3,6 @@
     position: absolute;
     top: calc(100vh - 70px);
 
-
     background-color: var(--white);
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
@@ -21,6 +20,8 @@
     position: relative;
 
     padding-top: 70px;
+
+    overflow: hidden;
 }
 
 .scrollBtn{

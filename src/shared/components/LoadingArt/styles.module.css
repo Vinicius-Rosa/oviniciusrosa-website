@@ -90,3 +90,9 @@
         top: 40%;
     }
 }
+
+@media screen and (max-width: 500px){
+    .container{
+        transform: scale(0.6);
+    }
+}

@@ -12,6 +12,7 @@ import Subtitle from '../Subtitle';
 import HighlightBtn from '../HighlightBtn';
 
 import WhatIDoForLivingOverlay from '../WhatIDoForLivingOverlay';
+import { classes } from 'app/utils/classLister';
 
 const Paragraph = ({ children, title }) => <div className={styles.paragraph}>
     <Subtitle>{title}</Subtitle>
@@ -35,7 +36,7 @@ function WhatIDoForLiving() {
             </Paragraph>
         </div>
 
-        <div className={styles.itemContainer}>
+        <div className={classes([styles.itemContainer, styles.midItemContainer])}>
             <Paragraph title="Aplicativos">
                 Apesar de menor, também tenho experiência na construção de apps hibridos com <strong>React Native</strong> com e sem <strong>Expo</strong>.
             </Paragraph>

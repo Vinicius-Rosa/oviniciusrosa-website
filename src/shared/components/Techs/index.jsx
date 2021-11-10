@@ -73,7 +73,18 @@ const techsArray = [
 ]
 
 function Techs() {
-    const techsListRender = useMemo(() => techsArray.map(
+    const techsList1Render = useMemo(() => techsArray.filter((_, i) => i < 4).map(
+        ({ imageUrl, imageDesc, infoRender }, i) => (
+            <SmallCard
+                key={i}
+                imageUrl={imageUrl}
+                imageDesc={imageDesc}
+                infoRender={infoRender}
+            />
+        )
+    ), [])
+
+    const techsList2Render = useMemo(() => techsArray.filter((_, i) => i >= 4).map(
         ({ imageUrl, imageDesc, infoRender }, i) => (
             <SmallCard
                 key={i}
@@ -87,7 +98,8 @@ function Techs() {
     return <section id="techs" className={styles.techsContainer}>
         <div className={styles.yellowLine} />
         <div className={styles.content}>
-            {techsListRender}
+            <div style={{ display: "flex" }}>{techsList1Render}</div>
+            <div style={{ display: "flex" }}>{techsList2Render}</div>
         </div>
     </section>;
 }

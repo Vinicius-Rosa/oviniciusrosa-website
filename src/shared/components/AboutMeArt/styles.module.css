@@ -3,6 +3,9 @@
 
     width: 650px;
     height: 650px;
+
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .me{
@@ -14,9 +17,9 @@
 .folhas{
     position: absolute;
     top: 10%;
-    left: 20px;
+    left: 3%;
 
-    width: 500px;
+    width: 76.5%;
 
     animation: swing 2s ease 0s infinite normal forwards;
 }
@@ -24,20 +27,20 @@
 .rosas{
     position: absolute;
     top: 28%;
-    right: 105px;
+    right: 16%;
     z-index: 3;
 
-    width: 180px;
+    width: 27.6%;
 
     animation: swing 4s ease 0s infinite;
 }
 
 .lua{
     position: absolute;
-    top: -10px;
+    top: -1.5%;
     left: 0;
 
-    width: 420px;
+    width: 64.5%;
 
     animation: float 6s ease 0s infinite;
 }
@@ -45,9 +48,9 @@
 .jornal{
     position: absolute;
     top: 0;
-    right: 40px;
+    right: 6%;
 
-    width: 380px;
+    width: 58.4%;
 
     animation: float 4s ease 0s infinite;
 }

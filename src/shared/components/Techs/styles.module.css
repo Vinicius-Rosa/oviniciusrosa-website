@@ -1,5 +1,7 @@
 .techsContainer{
     position: relative;
+
+    z-index: 2;
 }
 
 .content{
