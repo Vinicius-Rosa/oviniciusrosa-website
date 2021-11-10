@@ -1,0 +1,47 @@
+.container{
+    position: relative;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+
+    border-radius: 5px;
+    color: var(--primary);
+    width: 190px;
+
+    transition: 0.4s;
+}
+
+.container::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    z-index: 1;
+
+    content: "";
+    width: 0;
+    height: 100%;
+    
+    background-color: var(--primary);
+
+    transition: 0.4s;
+}
+
+.container:hover{
+    color: var(--white);
+}
+
+.container:hover::before{
+    color: var(--white);
+    width: 100%;
+}
+
+.button{
+    position: relative;
+    z-index: 2;
+
+    border: 2px solid var(--primary);
+    padding: 5px 20px;
+
+    width: 190px;
+}

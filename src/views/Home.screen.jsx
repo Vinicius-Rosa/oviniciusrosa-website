@@ -3,6 +3,7 @@ import AboutMe from 'shared/components/AboutMe';
 import CardContainer from 'shared/components/CardContainer';
 import Hero from 'shared/components/Hero';
 import Techs from 'shared/components/Techs';
+import WhatIDoForLiving from 'shared/components/WhatIDoForLiving';
 
 export function HomeScreen() {
     return <>
@@ -11,6 +12,7 @@ export function HomeScreen() {
         <CardContainer>
             <AboutMe />
             <Techs />
+            <WhatIDoForLiving />
         </CardContainer>
     </>
 }
