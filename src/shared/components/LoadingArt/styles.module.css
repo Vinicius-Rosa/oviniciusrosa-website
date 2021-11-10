@@ -18,7 +18,7 @@
     width: 150px;
 
     background-color: var(--white);
-    animation: lineAnimation 0.3s ease 0s infinite;
+    animation: lineAnimation 0.3s ease-out 0.2s infinite;
 }
 
 .container::before{
@@ -34,7 +34,7 @@
     width: 100px;
 
     background-color: var(--white);
-    animation: lineAnimation 0.3s ease 0s infinite;
+    animation: lineAnimation 0.2s ease-in 0s infinite;
 }
 
 .moto{
