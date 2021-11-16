@@ -93,3 +93,28 @@ button::-moz-focus-inner {
 strong {
   font-weight: bold;
 }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+* ::-webkit-scrollbar {
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+* ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #CCC;
+}

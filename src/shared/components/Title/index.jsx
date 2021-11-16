@@ -13,6 +13,10 @@ function Title({ children, highlightText, size = "lg" }) {
             return classes([styles.title, styles.titleMedium])
         }
 
+        if (size === "sm") {
+            return styles.titleSmall
+        }
+
         return styles.title
     }, [size])
 

@@ -27,6 +27,13 @@
     font-size: 3.5rem;
 }
 
+.titleSmall{
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 2rem;
+
+    width: max-content;
+}
+
 @media screen and (max-width: 1100px) {
     .title{    
         font-size: 8rem;
@@ -34,5 +41,13 @@
 
     .titleMedium{
         font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .title,
+    .titleMedium,
+    .titleSmall{
+        width: unset;
     }
 }
