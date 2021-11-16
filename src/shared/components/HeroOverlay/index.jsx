@@ -1,6 +1,6 @@
 import React from 'react';
-import { Object as Dots } from 'shared/assets/object.component';
-import { Object3 as Lines } from 'shared/assets/object.component';
+import { Object as Dots } from 'shared/assets/ObjectComponent';
+import { Object3 as Lines } from 'shared/assets/ObjectComponent';
 
 import styles from './styles.module.css';
 

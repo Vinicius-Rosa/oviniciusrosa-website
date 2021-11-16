@@ -13,8 +13,8 @@ import Cloud3 from 'shared/assets/me/cloud3.png';
 
 import Girassol from 'shared/assets/me/girassois.png';
 
-import { Object2 as Dots } from 'shared/assets/object.component';
-import { Object as Dots2 } from 'shared/assets/object.component';
+import { Object2 as Dots } from 'shared/assets/ObjectComponent';
+import { Object as Dots2 } from 'shared/assets/ObjectComponent';
 
 import styles from './styles.module.css';
 

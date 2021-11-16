@@ -1,5 +1,5 @@
 import React from 'react';
-import { Object2 as Dots } from 'shared/assets/object.component';
+import { Object2 as Dots } from 'shared/assets/ObjectComponent';
 
 import styles from './styles.module.css';
 
