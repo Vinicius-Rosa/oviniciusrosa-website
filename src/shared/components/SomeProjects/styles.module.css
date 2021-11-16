@@ -29,3 +29,9 @@
         flex-wrap: wrap;
     }
 }
+
+@media screen and ( max-width: 850px) {
+    .projectList{    
+        margin-top: 50px;
+    }
+}

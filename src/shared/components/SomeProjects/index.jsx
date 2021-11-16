@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import ProjectsCards from '../ProjectsCards';
+import SomeProjectsOverlay from '../SomeProjectsOverlay';
 import Title from '../Title';
 
 import styles from './styles.module.css';
@@ -44,6 +45,8 @@ function SomeProjects() {
     ), [])
 
     return <section id="someProjects" className={styles.container}>
+        <SomeProjectsOverlay />
+
         <Title highlightText=" projetos" size="md">Alguns</Title>
 
         <div className={styles.projectList}>

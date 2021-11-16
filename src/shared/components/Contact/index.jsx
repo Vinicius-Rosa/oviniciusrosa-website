@@ -1,5 +1,6 @@
 import React, { useCallback, useReducer } from 'react';
 import Button from '../Button';
+import ContactOverlay from '../ContactOverlay';
 import Input from '../Input';
 import Socials from '../Socials';
 import Title from '../Title';
@@ -30,6 +31,8 @@ function Contact() {
     }, [])
 
     return <section className={styles.container}>
+        <ContactOverlay />
+
         <Title size="md" highlightText=" Vamos conversar!">Curtiu?</Title>
 
         <div style={{ maxWidth: "900px", margin: "50px auto" }}>

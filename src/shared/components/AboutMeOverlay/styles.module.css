@@ -12,7 +12,7 @@
     position: absolute;
 
     top: 0;
-    right: -75%;
+    right: -520px;
 
     transform: rotate(15deg);
 }
@@ -20,7 +20,7 @@
 .dots2{
     position: absolute;
     bottom: 100px;
-    left: -60%;
+    left: -640px;
 
     transform: rotate(-15deg);
 }
@@ -29,5 +29,5 @@
     position: absolute;
 
     top: 60%;
-    right: -55%;
+    right: -540px;
 }
